@@ -11,9 +11,9 @@
      
      --fonte-padrao:arial, tahoma, verdana;
      --font-base: 18px;
-     --line-base: 28px;
-     --radius: 5px;
-     --espaço-padrao: 10px;
+     --line-base: 24px;
+     --radius: 30px;
+     --espaço-padrao: 25px;
  }
 
 *{
@@ -49,7 +49,7 @@ header{
 
 h1{
     text-align: center;
-    line-height: 50px;
+    line-height: 60px;
     font-size: 25px;
     color: var(--cor-branca);
 }
@@ -73,8 +73,8 @@ nav ul{
 }
 
 ul li, ol li{
-    margin-left: 40px;
-    line-height: 30px;
+    margin-left: 50px;
+    line-height: 40px;
 }
 
 footer p{
@@ -83,10 +83,41 @@ footer p{
 
 footer{
     width: 100%;
-    height:35px;
+    height: 35px;
     background: var(--cor-footer);
     position: absolute;
     bottom: 0;
     display: block;
     clear: both;
+}
+
+/*Configurações das paginas da pasta Pages*/
+h2{
+   line-height: 40px;
+}
+
+p, blockquote{
+    text-align: center;
+    line-height: 36px;
+}
+
+hr{
+    margin: var(--espaço-padrao);
+}
+
+figure{
+    width: 140px;
+    height: 140PX;
+    background: var(--cor-branca);
+    border-radius: 85px;
+    margin: var(--espaço-padrao) auto ;
+    border: 1px solid var(--cor-branca);
+    box-shadow: 0px 1px 2px var(--cor-sombra);
+}
+
+img{
+    width: 85px;
+    position: relative;
+    margin-left: 16px;
+    margin-top: 16Px;
 }
