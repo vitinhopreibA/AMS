@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #1e1e24; /* Fundo escuro elegante */
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 6px; /* Espaço perfeito entre os elementos */
+    margin: 0 auto;
+}
+
+/* Centraliza os títulos 1A, 2A, 3B, etc. */
+th.title {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 0;
+    text-align: center;
+    color: #a8dadc;
+}
+
+/* Estilo de cada caixinha de elemento */
+td div.elemento {
+    width: 70px;
+    height: 80px;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: #2d2d37; /* Cor de fundo padrão */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+/* Textos internos das caixinhas */
+td p {
+    margin: 0;
+    text-align: center;
+}
+
+.indice {
+    font-size: 10px;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.sigla {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nome {
+    font-size: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Corta nomes longos se necessário */
+    opacity: 0.8;
+}
+
+/* ==========================================
+   Cores por Família (Classes do seu HTML)
+   ========================================== */
+.naometais { background-color: #2a9d8f !important; }
+.gasesnobres { background-color: #7209b7 !important; }
+.metaisalcalinos { background-color: #e63946 !important; }
+.alcalinoterreos { background-color: #f4a261 !important; }
+.metaistransicao { background-color: #e9c46a !important; color: #00b4d8; }
+.outros-metais { background-color: #4ea8de !important; }
+.semimetais { background-color: #40916c !important; }
+.halogenios { background-color: #b5179e !important; }
+.lantanideos { background-color: #48cae4 !important; }
+.actinideos { background-color: #00b4d8 !important; }
