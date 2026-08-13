@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.tabela {
+    display: grid;
+    grid-template-columns: repeat(18, 70px);
+    gap: 5px;
+    justify-content: center;
+}
+
+.elemento {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+.elemento:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255,255,255,0.5);
+}
+
+.numero {
+    font-size: 12px;
+    align-self: flex-start;
+}
+
+.simbolo {
+    font-size: 24px;
+    text-align: bold;
+}
+
+.nome {
+    font-size: 10px;
+    text-align: center;
+}
+
+/* Cores */
+
+.alcalino{ background: #ff5a1f;}
+.alcalino-terroso{ background: #f1dd28;}
+.transicao{ background: #63c7d8;}
+.pos-transicao{ background: #f2a54b;}
+.semimetal{ background: #4ba3f2;}
+.ametal-reativo{ background: #58c25f;}
+.gas{ background: #f324ad;}
+.lantanideo{ background: #b987f0;}
+.actinideo{ background: #f5a07c;}
+.desconhecido{ background:#cfd4d9;}
