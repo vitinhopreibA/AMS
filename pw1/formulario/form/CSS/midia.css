@@ -1,0 +1,13 @@
+@media (max-widht: 768px){
+    body{
+        padding: 1em;
+    }
+    form{
+        width: 95%;
+        padding: 0.8;
+    }
+    #titulo{
+        font-size: 1.5em;
+    }
+    
+}
