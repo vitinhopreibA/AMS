@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de Cadastro para campeonato de games">
+    <meta name="keywords" content="HTML, CSS, Formulario, Contato">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Cadastro DEV</title>
+</head>
+<body>
+    <main>
+        <div class="header">
+            <h1 id="titulo">Cadastro para campeonato de games </h1>
+        </div>
+        <form action="#" method="post" autocomplete="off">
+           <fieldset class="Grupo">   
+              <div class="campo">
+                <label for="nome"><strong>Nome Completo</strong></label> 
+                <input type="text" name="nome" id="nome" required>
+              </div>
+               <div class="campo">
+                <label for="sobrenome"><strong>Numero de Telefo</strong></label> 
+                <input type="text" name="sobrenome" id="sobrenome" required>
+              </div>
+           </fieldset>
+              <div class="campo">
+                <label for="email"><strong>Email</strong></label> 
+                <input type="email" name="email" id="Email" required>
+              </div>
+              <div class="campo">
+                 <label><strong>Qua a modalidade você joga?<lve?/strong></label>
+                 <label>
+                    <input type="radio" name="campgames" value="rankeado" cheked>Rankeado
+                 </label>
+                 <label>
+                    <input type="radio" name="campgames" value="casual" cheked>Casual
+                 </label>
+                 <label>
+                    <input type="radio" name="campgames" value="competitivo" cheked>Competitivo
+                 </label>
+              </div>
+              <div class="campo">
+                <label for="senioridade"><strong>Senioridade</strong></label>
+                <select id="senioridade" name="senioridade" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option value="junior">Júnior</option>
+                    <option value="pleno">Pleno</option>
+                    <option value="senior">Sênior</option>              
+                 </select>
+              </div>
+              <fieldset class="Grupo">
+                <legend><strong>Selecione os personagens que ultiliza:</strong></legend>
+                <label>
+                    <input type="checkbox" name="Valorant" value="jett">Jett
+                </label>
+                <label>
+                    <input type="checkbox" name="Valorant" value="raze">Raze
+                </label>
+                 <label>
+                    <input type="checkbox" name="Valorant" value="reyna">Reyna
+                </label>
+                 <label>
+                    <input type="checkbox" name="Valorant" value="sova">Sova
+                </label>
+                 <label>
+                    <input type="checkbox" name="Valorant" value="skye">Skye
+                </label>
+                 <label>
+                    <input type="checkbox" name="Valorant" value="omen">Omen
+                </label>
+                 <label>
+                    <input type="checkbox" name="Valorant" value="clove">Clove
+                </label>
+              </fieldset>
+              <div class="campo">
+                  <label for="experiencia"><strong>Fale sobre sua experiencia no valorant:</strong></label>
+                  <textarea id="experiencia" name="experiencia" rows="6" cols="47" placeholder="Descreva sua tragetória...
+                  "></textarea>
+              </div>
+              <div class="button">
+                 <button class="botao" type="submit">Concluido</button>
+              </div>
+        </form>
+    </main>
+    <footer class="footer-center">
+        <p>&copy; 2026 Cadastro de Jogadores . Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
